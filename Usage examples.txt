@@ -1,25 +1,23 @@
-1- Download the Dataset:
-kaggle datasets download mrigaankjaswal/crop-yield-prediction-dataset
 
-2- Run the Script:
-python CS316_project.py --model RandomForest --train data/train.csv --test data/test.csv
+# Usage Example
 
-3- Interpret the Output: 
-After running the script, it will:
-  -Load the training and test data.
-  -Preprocess the data (e.g., feature scaling).
-  -Train the selected model (e.g., RandomForest).
-  -Output performance metrics such as RMSE (Root Mean Squared Error) and R².
+## Step 1: Install Requirements
+```bash
+pip install -r requirements.txt
+```
 
+## Step 2: Run the Script
+Execute the Python script:
+```bash
+python [cs316]_sustainable_agriculture.py
+```
 
-4- Evaluate a Custom Model:
-python CS316_project.py --model GradientBoosting --n_estimators 200 --max_depth 10
+## Step 3: Explore Outputs
+- View feature importance plots.
+- Review model evaluation metrics in the console or output files.
 
-
-5- Example Output:
-
-Training RandomForest Model...
-Data preprocessing completed.
-Training completed in 10.5 seconds.
-Test RMSE: 12.34
-Test R²: 0.89
+## Sample Output
+After running the script, you'll see outputs like:
+- **Accuracy Scores:** Model performance metrics.
+- **Feature Importance:** Insights into the significance of features.
+- **Comparative Analysis:** A summary of the best-performing model.
