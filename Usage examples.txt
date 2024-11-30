@@ -1,0 +1,25 @@
+1- Download the Dataset:
+kaggle datasets download mrigaankjaswal/crop-yield-prediction-dataset
+
+2- Run the Script:
+python CS316_project.py --model RandomForest --train data/train.csv --test data/test.csv
+
+3- Interpret the Output: 
+After running the script, it will:
+  -Load the training and test data.
+  -Preprocess the data (e.g., feature scaling).
+  -Train the selected model (e.g., RandomForest).
+  -Output performance metrics such as RMSE (Root Mean Squared Error) and R².
+
+
+4- Evaluate a Custom Model:
+python CS316_project.py --model GradientBoosting --n_estimators 200 --max_depth 10
+
+
+5- Example Output:
+
+Training RandomForest Model...
+Data preprocessing completed.
+Training completed in 10.5 seconds.
+Test RMSE: 12.34
+Test R²: 0.89
