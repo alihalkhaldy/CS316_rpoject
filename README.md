@@ -1,41 +1,29 @@
+# Crop Yield Prediction
 
-# Sustainable Agriculture with AI
+This project aims to predict crop yields using machine learning techniques. It uses a Kaggle dataset that includes various features related to crop production, such as climate, soil, and region data. The models trained in this project are based on multiple machine learning algorithms to predict crop yield and evaluate model performance.
 
-This project leverages artificial intelligence (AI) and machine learning (ML) to optimize crop yields and detect pests, contributing to sustainable agriculture practices.
+## Project Overview
 
-## Features
-- **Exploratory Data Analysis (EDA):** Gain insights into agricultural data.
-- **Feature Engineering and Selection:** Prepare and select the most relevant data for modeling.
-- **Machine Learning Models:** Train and evaluate models like XGBoost, CatBoost, and neural networks.
-- **Visualization:** Visualize feature importance and model performance.
-- **Comparison of Models:** Assess and compare the performance of various ML models.
+The project is built using Python and uses popular machine learning libraries such as scikit-learn, XGBoost, CatBoost, and others for regression tasks. The dataset is sourced from Kaggle and contains agricultural data that is processed and used for training models.
 
-## Dependencies
-See the `requirements.txt` file for a complete list of dependencies.
+## Dataset
 
-## Usage
-1. Clone the repository.
-2. Install dependencies using `pip install -r requirements.txt`.
-3. Run the script to execute the project pipeline.
-4. Review results in the output folder.
+The dataset used in this project is the [Crop Yield Prediction Dataset](https://www.kaggle.com/datasets/mrigaankjaswal/crop-yield-prediction-dataset), available on Kaggle. It includes features related to crop production such as region, temperature, and rainfall, along with historical crop yields.
 
-## Functions
-- **document_problem:** Documents the problem and objectives.
-- **load_dataset:** Loads and preprocesses the dataset.
-- **perform_eda:** Conducts exploratory data analysis.
-- **engineer_features:** Engineers new features from raw data.
-- **label_encode_features:** Encodes categorical features.
-- **select_features:** Selects important features for modeling.
-- **train_models:** Trains multiple machine learning models.
-- **evaluate_models:** Evaluates and compares models.
-- **compare_models:** Provides insights into model performance.
-- **plot_feature_importance:** Plots feature importance.
-- **document_impact:** Summarizes the impact and findings.
+## Libraries Used
 
-## Authors
-- Faisal Alghamdi - 221110726
-- Faisal Alfaraj - 222110025
-- Ali Alkhalidy - 222111397
+- `pandas` for data manipulation
+- `numpy` for numerical computations
+- `scikit-learn` for various regression models and model evaluation
+- `xgboost` and `catboost` for gradient boosting models
+- `matplotlib` and `seaborn` for data visualization
+- `kagglehub` for accessing Kaggle datasets in the notebook environment
 
-## License
-This project is for educational purposes and is distributed under the MIT License.
+## Installation
+
+To set up the project, follow these steps:
+
+### 1. Clone the repository or download the notebook file.
+
+```bash
+git clone https://github.com/yourusername/crop-yield-prediction.git
