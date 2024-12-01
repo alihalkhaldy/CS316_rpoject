@@ -8,5 +8,5 @@ Before running the project, ensure that all dependencies are installed:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/alihalkhaldy/CS316_rpoject.git
    cd [cs316]_sustainable_agriculture
