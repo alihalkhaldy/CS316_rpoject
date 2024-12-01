@@ -15,7 +15,7 @@ This project leverages AI and data science techniques to optimize crop yield and
 
 - **Project Title:** Sustainable Agriculture: Leveraging AI for Crop Yield Optimization and Pest Detection
 - **Course:** CS316 - Introduction to AI and Data Science
-- **Institution:** [Institution Name] (if needed)
+- **Institution:** Prince Sultan University
   
 ## Installation Instructions
 
